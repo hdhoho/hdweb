@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="常用軟體集合" />
+    <title>軟體集合</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="top-nav" aria-label="分類導覽">
+      <a class="brand" href="#top">軟體集合</a>
+      <div class="nav-scroller">
+        <button id="nav-prev" class="nav-arrow" type="button" aria-label="顯示前面的分類" disabled>&#8249;</button>
+        <div id="category-nav" class="category-nav" aria-label="內容分類"></div>
+        <button id="nav-next" class="nav-arrow" type="button" aria-label="顯示後面的分類" disabled>&#8250;</button>
+      </div>
+    </nav>
+    <main class="page-shell">
+      <header id="top" class="hero">
+	<p class="my"></p>
+        <p class="eyebrow">CURATED COLLECTION</p>
+        <h1>常用軟體集合</h1>
+        <p>介紹裝機比較常用到的軟體。</p>
+      </header>
+
+      <section id="card-grid" class="category-list" aria-live="polite" aria-label="內容列表"></section>
+      <p id="status" class="status" role="status">正在載入內容…</p>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
