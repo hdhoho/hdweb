@@ -1,32 +1,271 @@
 <!doctype html>
 <html lang="zh-Hant">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="常用軟體集合" />
-    <title>軟體集合</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <nav class="top-nav" aria-label="分類導覽">
-      <a class="brand" href="#top">軟體集合</a>
-      <div class="nav-scroller">
-        <button id="nav-prev" class="nav-arrow" type="button" aria-label="顯示前面的分類" disabled>&#8249;</button>
-        <div id="category-nav" class="category-nav" aria-label="內容分類"></div>
-        <button id="nav-next" class="nav-arrow" type="button" aria-label="顯示後面的分類" disabled>&#8250;</button>
-      </div>
-    </nav>
-    <main class="page-shell">
-      <header id="top" class="hero">
-	<p class="my"></p>
-        <p class="eyebrow">CURATED COLLECTION</p>
-        <h1>常用軟體集合</h1>
-        <p>介紹裝機比較常用到的軟體。</p>
-      </header>
-
-      <section id="card-grid" class="category-list" aria-live="polite" aria-label="內容列表"></section>
-      <p id="status" class="status" role="status">正在載入內容…</p>
-    </main>
-    <script src="app.js"></script>
-  </body>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="課程：介紹軟、硬體相關" />
+<title>硬體課程</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav class="top-nav" aria-label="分類導覽"> <a class="brand" href="#top">硬體、軟體、APP</a>
+  <div class="page-links" aria-label="頁面導覽">
+    <div class="hardware-menu"> <a class="page-link hardware-trigger">硬體 <span aria-hidden="true">⌄</span></a>
+      <div class="hardware-dropdown" aria-label="硬體分類"> <a href="index.html">主機板 (Mother Board)</a> <a href="index1-1.html">中央處理器 (CPU)</a> <a href="index1-2.html">記憶體 (Ram)</a> <a href="index1-3.html">硬碟 (Hard Disk)</a> <a href="index1-4.html">顯示卡 (VGA Card)</a> <a href="index1-5.html">光碟機 (CD-ROM)</a> <a href="index1-6.html">電源供應器 (Power)</a> <a href="index1-7.html">外殼 (Case)</a> <a href="index1-8.html">電腦螢幕 (Monitor)</a> <a href="index1-9.html">其它週邊 (Other Merchandise)</a> </div>
+    </div>
+    <div class="software-menu"> <a class="software-trigger" href="index2.html">軟體 <span aria-hidden="true">⌄</span></a>
+      <div id="category-nav" class="category-dropdown" aria-label="軟體分類"></div>
+    </div>
+    <!--<a class="page-link" href="index3.html">APP</a>--> 
+  </div>
+</nav>
+<main class="page-shell">
+  <header id="top" class="hero">
+    <p class="my"></p>
+    <p class="eyebrow">CURATED COLLECTION</p>
+    <h1>主機板</h1>
+    <p>MB, MotherBoard 或 MainBoard</p>
+  </header>
+  <div class="container">
+    <h2>一、從外觀認識主機板</h2>
+    <p>主機板（Motherboard），又稱為「母板」，是電腦內部最重要的硬體之一，也是連接所有電腦零件的核心平台。主機板負責連接中央處理器（CPU）、記憶體（RAM）、顯示卡、硬碟等設備，讓各個零件能夠互相傳輸資料並協同運作。</p>
+    <h3>主機板的主要功能</h3>
+    <ol>
+      <li>連接硬體設備： 讓 CPU、記憶體、顯示卡及儲存裝置能夠連接在一起。</li>
+      <li>傳輸資料： 提供各個硬體之間的資料傳輸通道。</li>
+      <li>分配電力： 將電源供應器提供的電力輸送至相關零件。</li>
+      <li>提供擴充功能： 可以安裝額外的顯示卡、網路卡、音效卡等設備。</li>
+      <li>管理系統啟動： 透過 BIOS／UEFI 韌體進行硬體初始化及開機設定。</li>
+    </ol>
+    <h3>常見主機板廠商</h3>
+    <ol>
+      <li>華碩(ASUS) <a href="https://www.asus.com/tw/" target="_blank">官網</a></li>
+      <li>技嘉(gigabyte) <a href="https://www.gigabyte.com/tw" target="_blank">官網</a></li>
+      <li>微星(MSI) <a href="https://tw.msi.com/" target="_blank">官網</a></li>
+      <li>華擎(ASRock) <a href="https://www.asrock.com/index.tw.asp" target="_blank">官網</a></li>
+      <li>映泰(Biostar) <a href="http://www.biostar.com.cn/app/en-us/" target="_blank">官網</a></li>
+    </ol>
+    <h3>線上購物</h3>
+    <ul class="link-list">
+      <li><a href="https://24h.pchome.com.tw/region/DSAJ" target="_blank">PCHOME</a></li>
+      <li><a href="https://www.isunfar.com.tw/" target="_blank">順發3C</a></li>
+      <li><a href="http://www.coolpc.com.tw/evaluate.php" target="_blank">原價屋</a></li>
+      <li><a href="https://www.sinya.com.tw/" target="_blank">欣亞數位</a></li>
+    </ul>
+    <h2>二、Intel常見插槽與硬體匹配</h2>
+    <img src="images/IxMesIF.png" alt="Intel插槽與硬體匹配1" height="500" /> <img src="images/3htBdDv.png" alt="Intel插槽與硬體匹配2" height="500" />
+    <div class="img-source"><a href="https://www.gigabyte.com/tw/Motherboard/GA-B250M-D3V-rev-10#kf" target="_blank">來源</a></div>
+    <h2>三、AMD常見插槽與硬體匹配</h2>
+    <img src="images/BLqkWE8.png" alt="AMD插槽與硬體匹配1" height="500" /> <img src="images/woiooLx.png" alt="AMD插槽與硬體匹配2" height="500" />
+    <div class="img-source"><a href="https://www.gigabyte.com/tw/Motherboard/B450M-DS3H-rev-10#kf" target="_blank">來源</a></div>
+    <h2>四、CPU 插槽</h2>
+    <ul>
+      <li>要先選擇 CPU 的種類才能決定主機板。</li>
+      <li>目前分為 Intel 與 AMD 系列</li>
+    </ul>
+    <img src="images/C8k4MP1.png" alt="CPU規格" width="900" />
+    <div class="img-source"><a href="https://ark.intel.com/content/www/tw/zh/ark.html#@Processors" target="_blank">intel產品規格</a></div>
+    <h3>Intel 插槽</h3>
+    <img src="images/gRs1lHu.png" alt="Intel 插槽" width="900" />
+    <h3>AMD 插槽</h3>
+    <img src="images/s8rhMzd.png" alt="AMD 插槽" width="900" />
+    <h2>五、記憶體插槽</h2>
+    <ul>
+      <li>雙通道系統-選購品牌、型號、容量相同,並且放入到正確的插槽中,可讓記憶體產生並聯效果,以達到多一倍的存取效率。</li>
+      <li>目前市場主流為 DDR4/DDR3。</li>
+    </ul>
+    <img src="images/1RVOc1Y.png" alt="記憶體插槽" width="600" />
+    <h2>六、顯示卡插槽</h2>
+    <ul>
+      <li>目前顯示卡已全面使用PCI-E 3.0的介面標準。</li>
+      <li>PCI-E有多種型態以及規格，大型的x16插槽可以對應全部的PCI-E介面卡，小型的x1、x2、x4則要看主機板是否支援</li>
+    </ul>
+    <img src="images/dKCSgZM.png" alt="顯示卡插槽" width="600" />
+    <h2>七、PCI 插槽</h2>
+    <ul>
+      <li>PCI (週邊元件連接介面) 曾是主機板上最搶眼的匯流排, 但在 PCI-E 成為主流規格後, 主機板廠商多隻保留約 1 〜 3 條插槽, 以提供目前仍為數不少的 PCI 介面卡使用。</li>
+    </ul>
+    <img src="images/qxFuPhM.png" alt="PCI 插槽" width="900" />
+    <h2>八、SATA3 插槽 / SATA Express 插槽</h2>
+    <ul>
+      <li>SATA3為硬碟及光碟機介面,傳輸速度為600MB/s。</li>
+      <li>SATA Express為固態硬碟的高速連接埠,傳輸速度可以達到1600MB/s。</li>
+    </ul>
+    <img src="images/EfK5ovh.jpg" alt="SATA插槽" width="600" />
+    <h2>九、SATA RAID 磁碟陣列</h2>
+    <ul>
+      <li>RAID (獨立磁碟備援陣列) 俗稱『磁碟陣列』, 意思是利用多部硬碟組合並架構成單一的大型磁碟機。一個建立好的 RAID, 在使用上仍像是 1 部硬碟般沒啥兩樣；但除了基本的存取機制外, RAID 磁碟還可提供更大的容量、更高的讀寫效能, 以及額外的『安全性』 － 如資料容錯與修復等能力。</li>
+      <li>目前許多主機板上都會內建 SATA RAID 功能 － 常見的組合有 RAID 0、RAID 1、RAID 10 (0 ＋ 1)、與 RAID 5 等架構, 彼此的差異如下表：</li>
+    </ul>
+    <img src="images/FGDACED.png" alt="SATA RAID 說明" width="900" />
+    <h2>十、M.2插槽</h2>
+    <ul>
+      <li>固態硬碟高速連接埠，傳輸速度3200 MB/s，主要是替代Mini PCI-Express/mSATA和SATA。</li>
+    </ul>
+    <img src="images/SOkajf0.jpg" alt="M.2插槽" width="600" />
+    <h2>十一、I/O介面</h2>
+    <h3>PS/2</h3>
+    <ul>
+      <li>電腦鍵盤與滑鼠專用介面</li>
+      <li>滑鼠PS/2介面一般為綠色</li>
+      <li>鍵盤PS/2介面一般為紫色</li>
+      <li>目前滑鼠鍵盤大都為USB介面,所以主機板上組態為通用的PS/2 COMBO介面</li>
+    </ul>
+    <img src="images/wc5nbAz.png" alt="PS/2">
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DCAC41" target="_blank">轉接線材</a></div>
+    <h3>D-sub</h3>
+    <ul>
+      <li>D-sub又名VGA,是類比訊號傳輸介面</li>
+      <li>電腦圖像資料必須先轉成類比訊號才可傳輸,傳送到顯示器上再轉成數位訊號輸出,拉長顯示傳輸時間</li>
+    </ul>
+    <img src="images/EENOPYB.png" alt="D-sub" width="900" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DCACV6" target="_blank">線材</a></div>
+    <h3>DVI</h3>
+    <ul>
+      <li>DVI是高速數位訊號傳輸技術,包含DVI-A、DVI-D和DVI-I三種連接埠。</li>
+      <li>DVI-A已被淘汰,目前市面上大都為DVI-D連接埠,而DVI-I是在DVI-D的基礎上增加了5個針腳,以相容類比訊號</li>
+    </ul>
+    <img src="images/eyYNIsT.jpg" alt="DVI" width="600" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DCAC31" target="_blank">線材</a></div>
+    <h3>HDMI</h3>
+    <ul>
+      <li>HDMI是高畫質影像傳輸介面,可用於機上盒、DVD播放機、個人電腦、電視遊樂器、綜合擴大機、數位音響及電視機。</li>
+      <li>HDMI可以同時傳送音訊和視訊訊號</li>
+    </ul>
+    <img src="images/rYwLKXM.png" alt="HDMI" width="600" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DCACBP" target="_blank">線材</a></div>
+    <h3>USB</h3>
+    <ul>
+      <li>通用序列匯流排,是目前最流行的介面,特點是方便的熱插拔特性。</li>
+      <li>目前可以看到USB 2.0(480 MB/s)、USB 3.0(5 GB/s)及USB 3.1(10 GB/s)三種</li>
+    </ul>
+    <img src="images/DjLQQCQ.png" alt="USB" width="600" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/region/DCAD" target="_blank">線材</a></div>
+    <h3>eSATA</h3>
+    <ul>
+      <li>針對外接SATA裝置而制定的規格,大多使用於儲存裝置,如硬碟外接盒或磁碟陣列盒等。</li>
+      <li>提供USB 2.0傳輸速度也支援熱插拔</li>
+    </ul>
+    <img src="images/l3IduM1.png" alt="eSATA" width="600" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DCACS6" target="_blank">線材</a></div>
+    <h3>RJ-45</h3>
+    <ul>
+      <li>雙絞線俗稱網路線,使用的連接埠就是RJ-45,用於提供網路連結</li>
+    </ul>
+    <img src="images/R29HqoQ.jpg" alt="RJ-45" width="500" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DCACJG" target="_blank">線材</a></div>
+    <h3>DisplayPort</h3>
+    <ul>
+      <li>各家影音家電廠商為了不想額外多負擔HDMI的授權費用,另外製定了DisplayPort的新規格</li>
+      <li>支援目前市面上所看到的影音設備</li>
+    </ul>
+    <img src="images/aVy9p4S.png" alt="DisplayPort" width="900" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DCACFO" target="_blank">線材</a></div>
+    <h3>IEEE1394</h3>
+    <ul>
+      <li>IEEE1394連接埠是一個串列連接埠,主要應用於數位相機、DV等設備</li>
+    </ul>
+    <img src="images/wOoLIjQ.jpg" alt="IEEE1394" width="500" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DCAC08" target="_blank">線材</a></div>
+    <h2>十二、主機板板型</h2>
+    <h3>ATX</h3>
+    <ul>
+      <li>ATX就是所謂的大板，尺寸約為305mm x 244mm，面積較大相對功能也比其它板子來的豐富，散熱也更好一些。</li>
+    </ul>
+    <img src="images/uJAZrJU.jpg" alt="ATX" width="600" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DSAJ5L" target="_blank">查看</a></div>
+    <h3>EATX</h3>
+    <ul>
+      <li>是Extended ATX的縮寫，主要用於高性能PC主機、入門式工作站等。</li>
+      <li>它通常用於雙處理器和標準 ATX 主機板上無法勝任的服務器上，尺寸為305mm × 265 mm</li>
+    </ul>
+    <img src="images/iBcsrpt.png" alt="EATX" width="600" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DSAJ5M" target="_blank">查看</a></div>
+    <h3>MATX</h3>
+    <ul>
+      <li>MATX即Micro ATX是正方形的，尺寸約為244mm x 244mm，通常記憶體插槽會有4個。</li>
+    </ul>
+    <img src="images/y1M78YR.jpg" alt="MATX" width="600" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DSAJ5K" target="_blank">查看</a></div>
+    <h3>MINI-ITX</h3>
+    <ul>
+      <li>MINI-ITX或者叫ITX板型就更小了，尺寸約為170mm x 170mm，通常搭配專用ITX機殼。</li>
+    </ul>
+    <img src="images/bTXBP7A.jpg" alt="MINI-ITX" width="600" />
+    <div class="img-source"><a href="https://24h.pchome.com.tw/store/DSAJ5J" target="_blank">查看</a></div>
+    <h2>十三、晶片組的功能與地位</h2>
+    <blockquote> 晶片組 (Chipset) 意指各個控制晶片 (Chip) 的集合體 (Set), 更可說是主機板上最重要、最關鍵的元件；目前晶片組多分為 2 類：北橋晶片 (North Bridge) 與南橋晶片 (South Bridge)： </blockquote>
+    <h3>北橋晶片</h3>
+    <ul>
+      <li>北橋是主機板上最重要的晶片，負責連接CPU、記憶體和顯示卡</li>
+      <li>通常中階以上的主機板都會在北橋上裝散熱片或風扇，因為它就像CPU一樣會發熱</li>
+    </ul>
+    <img src="images/wS4XNtF.jpg" alt="北橋晶片" width="600" />
+    <h3>南橋晶片</h3>
+    <ul>
+      <li>南橋和北橋互連並連接其他週邊，我們熟知的主機板「功能」大多來自南橋，比如USB、網路、音效、SATA/IDE硬碟，都是從南橋連出來的。</li>
+    </ul>
+    <img src="images/i7L8341.jpg" alt="南橋晶片" width="600" />
+    <h3>南橋晶片與北橋晶片關係圖</h3>
+    <img src="images/pzy1l6A.png" alt="南北橋關係圖" width="600" />
+    <h2>十四、BIOS</h2>
+    <ul>
+      <li>基本輸入輸出控制系統,主要用來管理硬體的各種設定值</li>
+      <li>BIOS存在主機板的PROM上,想進入主機板的BIOS可在按下電源後按下對應按鍵即可進入</li>
+    </ul>
+    <img src="images/0VAY8hS.jpg" alt="BIOS" width="600" />
+    <h2>十五、CMOS</h2>
+    <ul>
+      <li>互補式金屬氧化物半導體，是一種積體電路的設計製程，可用來製作電腦電器的靜態隨機存取記憶體、微控製器、微處理器與其他數位邏輯電路系統、光學儀器</li>
+      <li>電腦系統的BIOS程式和參數資訊都保存在ROM和SRAM中，而「CMOS設置」就是指在設定BIOS的內容。</li>
+    </ul>
+    <img src="images/8bmyEEb.jpg" alt="CMOS">
+    <h2>十六、電池</h2>
+    <ul>
+      <li>以鋰材質製作而成，用來維持電腦系統的時間和BIOS選項設定</li>
+      <li>沒電系統時間會一直跑掉，而開機也會很麻煩，因為BIOS設定是協助硬體設備和軟體系統相容，也需要重新設定。</li>
+    </ul>
+    <img src="images/YlF2GwL.jpg" alt="電池">
+    <h2>十七、主機板電源插座</h2>
+    <ul>
+      <li>電源插座用來讓電源供應器 能夠提供足夠、穩定的『動力』給主機板上所有元組件。目前主機板上的電源插座為 24-Pin 的主電源插座 (Main Power Connector)：</li>
+    </ul>
+    <img src="images/A98sEfs.png" alt="主機板電源插座">
+    <h2>十八、CPU 供電插座</h2>
+    <ul>
+      <li>此外鑑於 CPU 的耗電量日趨上升, 因此目前主機板上也設計有獨立、專門提供 CPU 電力的 +12V 電源插座：</li>
+    </ul>
+    <img src="images/fKwihob.png" alt="CPU 供電插座">
+    <h2>十九、風扇插座</h2>
+    <ul>
+      <li>主機在運作時會產生高溫，所以必須使用各種風扇來達到降溫的作用，例 CPU 風扇、晶片組風扇、顯示卡風扇 甚至機殼上面可能也有好幾個大型的系統風扇；必須透過主機板及電源供應器來供電</li>
+    </ul>
+    <img src="images/Ab11LaF.jpg" alt="風扇插座">
+    <h2>二十、前方面板線路插座</h2>
+    <ul>
+      <li>開關機時按 Power 鈕</li>
+      <li>重新開機時按 Reset 鈕</li>
+      <li>要知道電腦有沒有動作時，可以看訊號燈有沒有亮起或閃爍</li>
+    </ul>
+    <img src="images/pf5iDiU.png" alt="前方面板線路插座">
+    <h2>二一、電容</h2>
+    <ul>
+      <li>提供 CPU 穩定的電力, 傳統電容使用的導電材質多為電解液, 容易因溫度或長時間不使用而產生質變, 造成外殼膨脹或電解液外漏的現象 (一般稱為『爆漿』), 因此越來越多廠商使用內含固態導電材質的電容 (即俗稱的『固態電容』)</li>
+    </ul>
+    <img src="images/IGYXlUq.png" alt="電容">
+    <h2>二二、電感</h2>
+    <ul>
+      <li>可濾波、及穩定電流, 以提高送至 CPU 的電流穩定性, 保障 CPU 不會因電流不穩而燒壞。目前各家產品使用的電感多為 Iron Powder (純鐵粉) 或 Ferrite (亞鐵鹽) 材質, 其中以 Ferrite 材質較佳。</li>
+    </ul>
+    <img src="images/Re8iPnL.png" alt="電感">
+    <h2>二三、電晶體</h2>
+    <ul>
+      <li>功能是控制電流進出、類似電源開關, 不過當電流通過電晶體時會因電阻而造成電能耗損, 因此目前也有不少廠商強調使用較低電阻的電晶體, 以減少電能耗損、達到省電的目的。</li>
+    </ul>
+    <img src="images/vMNqpsX.png" alt="電晶體">
+    <h2>包裝內容物</h2>
+    <img src="images/C950t4w.jpg" alt="包裝內容物1" height="300" /> <img src="images/mRfqrYB.jpg" alt="包裝內容物2" height="300" /> <img src="images/l8fH2HT.jpg" alt="包裝內容物3" height="300" /> <img src="images/SeBIlkP.jpg" alt="包裝內容物4" height="300" /> </div>
+</main>
+<script src="app.js"></script>
+</body>
 </html>

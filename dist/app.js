@@ -1,27 +1,7 @@
 const grid = document.querySelector('#card-grid');
 const status = document.querySelector('#status');
 const categoryNav = document.querySelector('#category-nav');
-const previousButton = document.querySelector('#nav-prev');
-const nextButton = document.querySelector('#nav-next');
-
-function updateNavigationButtons() {
-  const maxScroll = categoryNav.scrollWidth - categoryNav.clientWidth;
-  previousButton.disabled = maxScroll <= 1 || categoryNav.scrollLeft <= 1;
-  nextButton.disabled = maxScroll <= 1 || categoryNav.scrollLeft >= maxScroll - 1;
-}
-
-function scrollCategoryNav(direction) {
-  const distance = Math.max(220, categoryNav.clientWidth * 0.65);
-  const target = Math.max(0, Math.min(categoryNav.scrollWidth - categoryNav.clientWidth, categoryNav.scrollLeft + direction * distance));
-  categoryNav.scrollTo({ left: target, behavior: 'smooth' });
-  window.setTimeout(updateNavigationButtons, 350);
-}
-
-previousButton.addEventListener('click', () => scrollCategoryNav(-1));
-nextButton.addEventListener('click', () => scrollCategoryNav(1));
-categoryNav.addEventListener('scroll', updateNavigationButtons, { passive: true });
-window.addEventListener('resize', updateNavigationButtons);
-new ResizeObserver(updateNavigationButtons).observe(categoryNav);
+const dataSource = document.body.dataset.source || 'data.json';
 
 function createCard(item) {
   const article = document.createElement('article');
@@ -61,7 +41,7 @@ async function renderCards() {
   }
 
   try {
-    const response = await fetch('data.json');
+    const response = await fetch(dataSource);
     if (!response.ok) throw new Error('資料讀取失敗');
     const items = await response.json();
     if (!Array.isArray(items)) throw new Error('資料格式必須為陣列');
@@ -95,17 +75,15 @@ async function renderCards() {
         event.preventDefault();
         document.querySelector(link.hash)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         history.replaceState(null, '', link.hash);
+        softwareMenu.classList.remove('is-open');
+        softwareTrigger.setAttribute('aria-expanded', 'false');
       });
       return link;
     }));
-    requestAnimationFrame(() => {
-      updateNavigationButtons();
-      window.setTimeout(updateNavigationButtons, 100);
-    });
     status.textContent = items.length ? '' : '目前沒有可顯示的內容。';
   } catch (error) {
     console.error(error);
-    status.textContent = '無法載入內容，請確認 data.json 是否存在且格式正確。';
+    status.textContent = `無法載入內容，請確認 ${dataSource} 是否存在且格式正確。`;
   }
 }
 

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="課程：介紹軟、硬體相關" />
+<title>硬體課程</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav class="top-nav" aria-label="分類導覽"> <a class="brand" href="#top">硬體、軟體、APP</a>
+  <div class="page-links" aria-label="頁面導覽">
+    <div class="hardware-menu"> <a class="page-link hardware-trigger">硬體 <span aria-hidden="true">⌄</span></a>
+      <div class="hardware-dropdown" aria-label="硬體分類"> <a href="index.html">主機板 (Mother Board)</a> <a href="index1-1.html">中央處理器 (CPU)</a> <a href="index1-2.html">記憶體 (Ram)</a> <a href="index1-3.html">硬碟 (Hard Disk)</a> <a href="index1-4.html">顯示卡 (VGA Card)</a> <a href="index1-5.html">光碟機 (CD-ROM)</a> <a href="index1-6.html">電源供應器 (Power)</a> <a href="index1-7.html">外殼 (Case)</a> <a href="index1-8.html">電腦螢幕 (Monitor)</a> <a href="index1-9.html">其它週邊 (Other Merchandise)</a> </div>
+    </div>
+    <div class="software-menu"> <a class="software-trigger" href="index2.html">軟體 <span aria-hidden="true">⌄</span></a>
+      <div id="category-nav" class="category-dropdown" aria-label="軟體分類"></div>
+    </div>
+    <!--<a class="page-link" href="index3.html">APP</a>--> </div>
+</nav>
+<main class="page-shell">
+  <header id="top" class="hero">
+    <p class="my"></p>
+    <p class="eyebrow">CURATED COLLECTION</p>
+    <h1>顯示卡</h1>
+    <p>VGA 運算後輸出到螢幕上</p>
+  </header>
+  <div class="container">
+    <h2>一、外觀</h2>
+    <blockquote> 任何一款顯示卡, 在外觀上都會有著類似的元件, 如介面接腳、輸出端子 (接頭)、顯示晶片、散熱組件等： </blockquote>
+    <img src="images/MC78BT6.png" alt="顯示卡外觀示意圖" width="600" />
+    <h2>二、匯流排介面接腳</h2>
+    <blockquote> 顯示卡用來與主機板連接的介面接腳, 目前已全面統一為 PCI Express × 16 (簡稱 "PCIe × 16") 匯流排： </blockquote>
+    <img src="images/jh81RPj.png" alt="PCIe x16 接腳" width="600" />
+    <h2>三、視訊輸出介面</h2>
+    <blockquote> 將畫面呈現於螢幕上，常見的連接端埠有 DVI、TV-Out (S 端子)、VGA (D-Sub)、Display Port與 HDMI 介面： </blockquote>
+    <img src="images/EKeJL22.png" alt="視訊輸出介面總覽" width="600" />
+    <h3>TV-Out (S 端子)</h3>
+    <blockquote> 透過此接頭, 我們就可將電腦畫面直接輸出到電視 / 投影機等家電上播放；但由於 S 端子為類比輸出訊號, 因此呈現的畫面品質自然不如數位訊號來得細膩。 </blockquote>
+    <img src="images/J22Ikuy.png" alt="S端子介面" width="600" />
+    <h3>DVI</h3>
+    <blockquote> Digital Visual Interface (數位視訊介面) 是目前顯示 / 輸出的主流介面, 它可直接將顯卡送出的數位 (Digital) 資料, 直接顯示在支援數位訊號的螢幕 (如 LCD) 上；由於少去了數位與類比間的轉換, 因此可保持既有的畫質而不失真。 </blockquote>
+    <img src="images/PUKvnj1.png" alt="DVI介面" width="600" />
+    <h3>D-Sub</h3>
+    <blockquote> 即俗稱的 VGA 輸出埠, 是傳統類比 (如 CRT 螢幕) 時代的主要輸出介面。由於畫面輸出時, 需將原本數位資料轉成類比 (Analog) 訊號, 因此畫質自然比不上數位影像。 </blockquote>
+    <img src="images/VR14BHK.png" alt="D-Sub介面" width="600" />
+    <h3>HDMI</h3>
+    <blockquote> 全名為 "High Definition Multimedia Interface" (高解析度多媒體介面), 它支援 (相容) 目前的 DVI 數位訊號, 輸出的解析度可達 1,920 × 1,200 (即 Full HD / 1080p 等級) 以上；同時兼具全新一代 HDCP (Highbandwidth Digital Content Protection, 高頻寬數位內容保護) 技術, 以保障原作的智慧財產權。 </blockquote>
+    <img src="images/slGUPwc.png" alt="HDMI介面" width="600" />
+    <h3>DisplayPort</h3>
+    <blockquote> 是另一種與HDMI相似的高畫質媒體介面，可以直接為語音、視訊等提供傳輸通道，也適用於無延遲的遊戲控制，甚至單一接頭就可串聯多螢幕，實現對周邊裝置最大整合，不同於HDMI它無需繳付版權費。 </blockquote>
+    <img src="images/Ho70vn2.png" alt="DisplayPort介面" width="600" />
+    <h2>四、雙顯卡技術 － SLI 與 CrossFire</h2>
+    <blockquote> 以 SLI (Scalable Link Interface, 可擴充連結介面) 技術為例, 它是透過連接 2 張具 SLI 能力的顯卡, 讓雙 GPU 同時處理、輸出的影像資料, 以提高繪圖處理速度、改善顯示效能；而CrossFire 技術也是採雷同的原理與技巧, 其目的都是讓遊戲玩家可享受更即時、更快速、更流暢的畫面呈現效果！ </blockquote>
+    <img src="images/HFPJ9SA.jpg" alt="雙顯卡技術示意圖" width="600" />
+    <h2>五、PCI Express 規格表</h2>
+    <img src="images/V73pRh7.png" alt="PCI Express 規格表" width="600" />
+    <h2>六、顯示晶片</h2>
+    <blockquote> 圖形處理器 (GPU, Graphic Processing Unit) 或視覺處理器 (VPU, Visual Processing Unit), 是顯示卡上最重要的核心元件, 其地位有如電腦上的 CPU, 同時更決定了該張顯示卡的等級、規格、與其具備之功能！ </blockquote>
+    <h2>七、核心時脈</h2>
+    <blockquote> 顯示卡的核心時脈只是輔助性的屬性，在相同的著色器數量下，核心時脈高的產品會比低的好一些 </blockquote>
+    <img src="images/inCXUI3.png" alt="GPU-Z 測試核心時脈畫面" width="500" />
+    <div class="img-source"><a href="https://www.techpowerup.com/gpuz/" target="_blank">測試軟體</a></div>
+    <h2>八、顯示記憶體</h2>
+    <ul>
+      <li><strong>容量大小</strong> - 影響處理能力</li>
+      <li><strong>功用</strong> - 圖像運算時資料交換用</li>
+      <li><strong>類型</strong> - GDDR3、GDDR5、HBM/HBM2及GDDR5X，目前主流多為GDDR5</li>
+    </ul>
+    <img src="images/dFneRB3.png" alt="顯示記憶體示意圖" width="600" />
+    <h2>九、記憶體工作時脈</h2>
+    <ul>
+      <li>顯示卡記憶體工作時脈由早期的100 MHz發展到如今的GDDR5可以達到5000 MHz以上。</li>
+      <li>顯示卡記憶體時脈越高、處理速度愈快、效能愈好。</li>
+    </ul>
+    <img src="images/ZxDuMwg.png" alt="記憶體工作時脈" width="500" />
+    <h2>十、匯流排寬度</h2>
+    <blockquote> 顯示記憶體傳遞訊號時的資料寬度 (或稱為記憶體匯流排介面), 目前常見的有 64 / 128 / 256 / 512-bit 等寬度大小；匯流排寬度愈大, 代表同時間內可輸送的資料量愈大, 速度 / 效能上自然再加分！ </blockquote>
+    <img src="images/tIYDkFZ.png" alt="匯流排寬度" width="500" />
+    <h2>十一、核心代號與製程</h2>
+    <ul>
+      <li><strong>核心代號</strong> - NVIDIA® GeForce® RTX 2080 、AMD Radeon RX 580</li>
+      <li><strong>製程</strong> - 數字單位愈小, 代表該繪圖晶片在效能、散熱、電耗等各項指標, 都有進一步的提升；如 ATI 產品 14nm, 而 NVIDIA 產品 12~40 nm之間。</li>
+    </ul>
+    <img src="images/kfBrc3s.png" alt="核心代號與製程" width="500" />
+    <h2>十二、著色器 Shaders</h2>
+    <ul>
+      <li>大多數人購買顯示卡最關心的就是效能，雖然記憶體頻寬可以判定產品定位，但是影響效能最重要的是著色器的數量</li>
+      <li>著色器通常是以組為單位，AMD一組是128個，nVIDIA之前是一組198個，最新架構也是一組128個</li>
+    </ul>
+    <img src="images/wa0duXs.png" alt="著色器 Shaders 示意圖" width="500" />
+    <h2>包裝內容物</h2>
+    <img src="images/670exUv.jpg" alt="包裝內容物1" width="300" /> <img src="images/9xMdpJS.jpg" alt="包裝內容物2" width="300" /> <img src="images/WEUu0Ov.jpg" alt="包裝內容物3" width="300" /> <img src="images/cgxJXgF.jpg" alt="包裝內容物4" width="300" /> </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

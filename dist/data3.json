@@ -1,0 +1,1162 @@
+[
+  {
+    "imageName": "w7.png",
+    "category": "作業系統",
+    "image": "images/w7.png",
+    "link": "https://mega.nz/file/x25zUaxb#Yudt1uX8iite172l8BLLGOCwK1CaVWXYMJLodKUdDE4",
+    "title": "Windows 7",
+    "description": "微軟2009年推出的經典作業系統，介面簡潔、操作容易，目前已停止支援。"
+  },
+  {
+    "imageName": "w10.png",
+    "category": "作業系統",
+    "image": "images/w10.png",
+    "link": "https://www.microsoft.com/zh-tw/software-download/windows10",
+    "title": "Windows 10",
+    "description": "微軟2015年推出的作業系統，兼具穩定性與相容性，適合辦公、遊戲及日常使用。"
+  },
+  {
+    "imageName": "w11.png",
+    "category": "作業系統",
+    "image": "images/w11.png",
+    "link": "https://www.microsoft.com/zh-tw/software-download/windows11",
+    "title": "Windows 11",
+    "description": "微軟2021年新一代作業系統，採用現代化介面，強化多工處理、安全性與使用體驗。"
+  },
+  {
+    "imageName": "Ubuntu.png",
+    "category": "作業系統",
+    "image": "images/Ubuntu.png",
+    "link": "https://ubuntu.com/download",
+    "title": "Ubuntu",
+    "description": "基於 Linux 的免費開源作業系統，操作簡單，適合初學者、開發者及伺服器使用。"
+  },
+  {
+    "imageName": "Fedora.png",
+    "category": "作業系統",
+    "image": "images/Fedora.png",
+    "link": "https://fedoraproject.org/",
+    "title": "Fedora",
+    "description": "由社群與 Red Hat 支援的 Linux 發行版，注重創新、安全性與最新技術。"
+  },
+  {
+    "imageName": "LinuxMint.png",
+    "category": "作業系統",
+    "image": "images/LinuxMint.png",
+    "link": "https://linuxmint.com/",
+    "title": "Linux Mint",
+    "description": "基於 Ubuntu 的 Linux 發行版，介面類似 Windows，適合新手使用。"
+  },
+  {
+    "imageName": "Manjaro.png",
+    "category": "作業系統",
+    "image": "images/Manjaro.png",
+    "link": "https://manjaro.org/",
+    "title": "Manjaro",
+    "description": "基於 Arch Linux 的發行版，安裝方便、軟體更新快速，適合一般及進階使用者。"
+  },
+  {
+    "imageName": "ArchLinux.png",
+    "category": "作業系統",
+    "image": "images/ArchLinux.png",
+    "link": "https://archlinux.org/",
+    "title": "Arch Linux",
+    "description": "高度自由且可自訂的 Linux 發行版，採用滾動更新，適合進階使用者。"
+  },
+  {
+    "imageName": "Debian.png",
+    "category": "作業系統",
+    "image": "images/Debian.png",
+    "link": "https://www.debian.org/",
+    "title": "Debian",
+    "description": "歷史悠久的 Linux 發行版，以穩定、安全及自由軟體理念聞名。"
+  },
+  {
+    "imageName": "CutefishOS.png",
+    "category": "作業系統",
+    "image": "images/CutefishOS.png",
+    "link": "https://cutefish-ubuntu.github.io/",
+    "title": "CutefishOS",
+    "description": "以美觀、簡潔為特色的 Linux 作業系統，採用類似 macOS 的桌面設計。"
+  },
+  {
+    "imageName": "FydeOS.png",
+    "category": "作業系統",
+    "image": "images/FydeOS.png",
+    "link": "https://fydeos.com/",
+    "title": "FydeOS",
+    "description": "基於 ChromiumOS 的作業系統，主打雲端服務、輕量化及部分 Android 應用支援。"
+  },
+  {
+    "imageName": "ZorinOS.png",
+    "category": "作業系統",
+    "image": "images/ZorinOS.png",
+    "link": "https://zorin.com/",
+    "title": "Zorin OS",
+    "description": "採用接近 Windows 的操作介面，讓新手容易轉換至 Linux 系統。"
+  },
+  {
+    "imageName": "OfficeToolPlus.png",
+    "category": "辦公室應用",
+    "image": "images/OfficeToolPlus.png",
+    "link": "https://www.officetool.plus/zh-tw/",
+    "title": "Office Tool Plus",
+    "description": "第三方 Office 部署管理工具，可下載、安裝、設定及管理 Microsoft Office。"
+  },
+  {
+    "imageName": "OpenOffice.png",
+    "category": "辦公室應用",
+    "image": "images/OpenOffice.png",
+    "link": "https://www.openoffice.org/zh-tw/",
+    "title": "OpenOffice",
+    "description": "免費開源辦公軟體，提供文書處理、試算表、簡報及繪圖等功能。"
+  },
+  {
+    "imageName": "LibreOffice.png",
+    "category": "辦公室應用",
+    "image": "images/LibreOffice.png",
+    "link": "https://zh-tw.libreoffice.org/",
+    "title": "LibreOffice",
+    "description": "免費開源辦公軟體，支援多種檔案格式，可取代部分 Microsoft Office 功能。"
+  },
+  {
+    "imageName": "ModaODF.png",
+    "category": "辦公室應用",
+    "image": "images/ModaODF.png",
+    "link": "https://moda.gov.tw/digital-affairs/digital-service/app-services/248",
+    "title": "國發會 ODF",
+    "description": "臺灣政府推動的免費文書工具，支援 ODF 開放格式及公務檔案編輯。"
+  },
+  {
+    "imageName": "GenOffice.png",
+    "category": "辦公室應用",
+    "image": "images/GenOffice.png",
+    "link": "https://genoffice.ai/zh-tw/",
+    "title": "GenOffice",
+    "description": "免費開源的 AI 辦公軟體，支援文書、試算表、簡報及 PDF 編輯，內建 AI 助手提升工作效率。"
+  },
+  {
+    "imageName": "ONLYOFFICE.png",
+    "category": "辦公室應用",
+    "image": "images/ONLYOFFICE.png",
+    "link": "https://www.onlyoffice.com/",
+    "title": "ONLYOFFICE",
+    "description": "介面類似微軟 Office，支援檔案編輯、PDF及多人即時協作。"
+  },
+  {
+    "imageName": "Xdown.png",
+    "category": "下載工具",
+    "image": "images/Xdown.png",
+    "link": "https://xdown.org/",
+    "title": "Xdown",
+    "description": "免費多功能下載工具，支援 HTTP、FTP、BT、磁力連結及多執行緒下載。"
+  },
+  {
+    "imageName": "qBittorrent.png",
+    "category": "下載工具",
+    "image": "images/qBittorrent.png",
+    "link": "https://www.qbittorrent.org/",
+    "title": "qBittorrent",
+    "description": "免費開源的 BT 下載工具，支援磁力連結、種子搜尋、下載排程及速度限制，無廣告且跨平台。"
+  },
+  {
+    "imageName": "qBittorrentEnhanced.png",
+    "category": "下載工具",
+    "image": "images/qBittorrentEnhanced.png",
+    "link": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases",
+    "title": "qBittorrent Enhanced",
+    "description": "基於 qBittorrent 的開源增強版，加入自動封鎖吸血客戶端及 Tracker 管理功能。"
+  },
+  {
+    "imageName": "NDM.png",
+    "category": "下載工具",
+    "image": "images/NDM.png",
+    "link": "https://www.neatdownloadmanager.com/index.php/en/",
+    "title": "Neat Download Manager",
+    "description": "輕量免費下載管理器，支援多執行緒加速、斷點續傳及瀏覽器整合。"
+  },
+  {
+    "imageName": "Gopeed.png",
+    "category": "下載工具",
+    "image": "images/Gopeed.png",
+    "link": "https://gopeed.com/zh-TW",
+    "title": "Gopeed",
+    "description": "免費開源跨平台下載工具，支援 HTTP、BT、磁力連結及擴充功能。"
+  },
+  {
+    "imageName": "FDM.png",
+    "category": "下載工具",
+    "image": "images/FDM.png",
+    "link": "https://www.freedownloadmanager.org/",
+    "title": "Free Download Manager",
+    "description": "免費下載管理工具，支援多執行緒加速、斷點續傳、BT下載及瀏覽器整合，適合大型檔案下載。"
+  },
+  {
+    "imageName": "MegaDownloader.png",
+    "category": "下載工具",
+    "image": "images/MegaDownloader.png",
+    "link": "https://megadownloaderapp.blogspot.com/",
+    "title": "MegaDownloader",
+    "description": "專為 MEGA 雲端空間設計的免費下載工具，支援檔案管理及下載佇列。"
+  },
+  {
+    "imageName": "yt-dlp.png",
+    "category": "下載工具",
+    "image": "images/yt-dlp.png",
+    "link": "https://github.com/yt-dlp/yt-dlp/releases",
+    "title": "YT-DLP",
+    "description": "免費開源的命令列影音下載工具，支援多種影音網站、格式選擇、字幕下載及批次處理。"
+  },
+  {
+    "imageName": "GoogleChrome.png",
+    "category": "瀏覽器",
+    "image": "images/GoogleChrome.png",
+    "link": "https://www.google.com/chrome/?standalone=1",
+    "title": "Google Chrome",
+    "description": "Google 開發的瀏覽器，速度快、相容性高，支援大量擴充功能與跨裝置同步。"
+  },
+  {
+    "imageName": "MicrosoftEdge.png",
+    "category": "瀏覽器",
+    "image": "images/MicrosoftEdge.png",
+    "link": "https://explore.microsoft.com/zh-tw/edge?form=MA13FJ",
+    "title": "Microsoft Edge",
+    "description": "微軟開發的瀏覽器，整合 Windows、Copilot AI、垂直分頁及節能功能。"
+  },
+  {
+    "imageName": "MozillaFirefox.png",
+    "category": "瀏覽器",
+    "image": "images/MozillaFirefox.png",
+    "link": "https://www.firefox.com/zh-TW/",
+    "title": "Mozilla Firefox",
+    "description": "免費開源瀏覽器，使用 Gecko 核心，注重隱私保護與高度自訂功能。"
+  },
+  {
+    "imageName": "Brave.png",
+    "category": "瀏覽器",
+    "image": "images/Brave.png",
+    "link": "https://brave.com/zh-tw/",
+    "title": "Brave",
+    "description": "注重隱私的開源瀏覽器，內建廣告及追蹤器攔截功能。"
+  },
+  {
+    "imageName": "Safari.png",
+    "category": "瀏覽器",
+    "image": "images/Safari.png",
+    "link": "https://www.apple.com/safari/",
+    "title": "Safari",
+    "description": "Apple 開發的瀏覽器，整合 macOS 與 iOS，注重效能、續航及隱私。"
+  },
+  {
+    "imageName": "7-Zip.png",
+    "category": "壓縮軟體",
+    "image": "images/7-Zip.png",
+    "link": "https://www.7-zip.org/",
+    "title": "7-Zip",
+    "description": "免費開源壓縮軟體，支援7z、ZIP、RAR解壓縮，壓縮率高且輕量。"
+  },
+  {
+    "imageName": "WinRAR.png",
+    "category": "壓縮軟體",
+    "image": "images/WinRAR.png",
+    "link": "https://rar.tw/",
+    "title": "WinRAR",
+    "description": "經典壓縮工具，支援RAR、ZIP、分割壓縮、密碼加密及損毀檔案修復。"
+  },
+  {
+    "imageName": "Bandizip.png",
+    "category": "壓縮軟體",
+    "image": "images/Bandizip.png",
+    "link": "https://tw.bandisoft.com/bandizip/",
+    "title": "Bandizip",
+    "description": "快速易用的壓縮軟體，支援多核心壓縮、智慧解壓及多種格式。"
+  },
+  {
+    "imageName": "PeaZip.png",
+    "category": "壓縮軟體",
+    "image": "images/PeaZip.png",
+    "link": "https://peazip.github.io/",
+    "title": "PeaZip",
+    "description": "免費開源壓縮工具，支援多種格式、檔案加密、分割及批次處理。"
+  },
+  {
+    "imageName": "NanaZip.png",
+    "category": "壓縮軟體",
+    "image": "images/NanaZip.png",
+    "link": "https://nanazip.org/",
+    "title": "NanaZip",
+    "description": "基於7-Zip的開源壓縮工具，支援Windows 11右鍵選單及現代化介面。"
+  },
+  {
+    "imageName": "Keka.png",
+    "category": "壓縮軟體",
+    "image": "images/Keka.png",
+    "link": "https://www.keka.io/zh-tw/",
+    "title": "Keka",
+    "description": "專為macOS設計的壓縮軟體，支援拖曳壓縮、密碼保護及多種格式。"
+  },
+  {
+    "imageName": "TheUnarchiver.png",
+    "category": "壓縮軟體",
+    "image": "images/TheUnarchiver.png",
+    "link": "https://theunarchiver.com/",
+    "title": "The Unarchiver",
+    "description": "macOS免費解壓縮工具，支援RAR、ZIP、7z等格式，操作簡單。"
+  },
+  {
+    "imageName": "ImgBurn.png",
+    "category": "燒錄軟體",
+    "image": "images/ImgBurn.png",
+    "link": "https://www.imgburn.com/",
+    "title": "ImgBurn",
+    "description": "免費輕量級燒錄工具，支援CD、DVD、Blu-ray及ISO映像檔燒錄與驗證"
+  },
+  {
+    "imageName": "CDBurnerXP.png",
+    "category": "燒錄軟體",
+    "image": "images/CDBurnerXP.png",
+    "link": "https://cdburnerxp.com/",
+    "title": "CDBurnerXP",
+    "description": "免費燒錄軟體，支援資料光碟、音樂CD、ISO映像檔及開機光碟製作。"
+  },
+  {
+    "imageName": "AnyBurn.png",
+    "category": "燒錄軟體",
+    "image": "images/AnyBurn.png",
+    "link": "https://anyburn.com/",
+    "title": "AnyBurn",
+    "description": "輕量免費燒錄軟體，支援光碟燒錄、ISO製作、音樂CD及映像檔轉換。"
+  },
+  {
+    "imageName": "BurnAware.png",
+    "category": "燒錄軟體",
+    "image": "images/BurnAware.png",
+    "link": "https://www.burnaware.com/",
+    "title": "BurnAware",
+    "description": "提供免費及付費版本，支援CD、DVD、Blu-ray及ISO映像檔燒錄。"
+  },
+  {
+    "imageName": "K-Lite.png",
+    "category": "多媒體播放",
+    "image": "images/K-Lite.png",
+    "link": "https://codecguide.com/",
+    "title": "K-Lite Codec Pack",
+    "description": "免費影音解碼套件，支援多種影音格式，內含MPC-HC播放器及解碼工具。"
+  },
+  {
+    "imageName": "VLC.png",
+    "category": "多媒體播放",
+    "image": "images/VLC.png",
+    "link": "https://www.videolan.org/vlc/index.zh_TW.html",
+    "title": "VLC Media Player",
+    "description": "免費開源影音播放器，支援多種格式、字幕、DVD及網路串流播放。"
+  },
+  {
+    "imageName": "GOM.png",
+    "category": "多媒體播放",
+    "image": "images/GOM.png",
+    "link": "https://www.gomlab.com/en/gomplayer-media-player",
+    "title": "GOM Player",
+    "description": "多功能影音播放器，支援多種格式、字幕搜尋、播放清單及360度影片。"
+  },
+  {
+    "imageName": "KMPlayer.png",
+    "category": "多媒體播放",
+    "image": "images/KMPlayer.png",
+    "link": "https://www.kmplayer.com/home",
+    "title": "KMPlayer",
+    "description": "多功能影音播放器，支援4K、8K高畫質影片、字幕及多種影音格式。"
+  },  
+  {
+    "imageName": "PotPlayer.png",
+    "category": "多媒體播放",
+    "image": "images/PotPlayer.png",
+    "link": "https://potplayer.tv/?lang=zh_TW",
+    "title": "PotPlayer",
+    "description": "Windows影音播放器，支援4K、硬體加速、字幕調整及高度自訂。"
+  },
+  {
+    "imageName": "mpv.png",
+    "category": "多媒體播放",
+    "image": "images/mpv.png",
+    "link": "https://mpv.io/",
+    "title": "mpv",
+    "description": "免費開源輕量播放器，支援硬體加速、高畫質輸出與進階自訂。"
+  },
+  {
+    "imageName": "Kodi.png",
+    "category": "多媒體播放",
+    "image": "images/Kodi.png",
+    "link": "https://kodi.tv/",
+    "title": "Kodi",
+    "description": "開源家庭劇院軟體，可管理電影、影集、音樂及網路媒體。"
+  },
+  {
+    "imageName": "IINA.png",
+    "category": "多媒體播放",
+    "image": "images/IINA.png",
+    "link": "https://iina.io/",
+    "title": "IINA",
+    "description": "專為macOS設計的開源播放器，介面美觀，支援字幕與多種影音格式。"
+  },
+  {
+    "imageName": "AIMP.png",
+    "category": "多媒體播放",
+    "image": "images/AIMP.png",
+    "link": "https://aimp.ru/",
+    "title": "AIMP",
+    "description": "免費音樂播放器，支援多種音訊格式、等化器、播放清單及音樂管理。"
+  },
+  {
+    "imageName": "Winamp.png",
+    "category": "多媒體播放",
+    "image": "images/Winamp.png",
+    "link": "https://winamp.com/",
+    "title": "Winamp",
+    "description": "經典音樂播放器，支援多種音訊格式、播放清單、音效外掛及介面面板。"
+  },
+  {
+    "imageName": "anylisten.png",
+    "category": "多媒體播放",
+    "image": "images/anylisten.png",
+    "link": "https://github.com/any-listen/any-listen-desktop",
+    "title": "any-listen",
+    "description": "跨平台音樂播放器，提供音樂播放與歌單管理功能，適合日常聆聽及整理音樂。"
+  },
+  {
+    "imageName": "TeamViewer.png",
+    "category": "遠端遙控",
+    "image": "images/TeamViewer.png",
+    "link": "https://www.teamviewer.com/tw/",
+    "title": "TeamViewer",
+    "description": "知名遠端控制軟體，支援跨平台連線、檔案傳輸、遠端協助及無人值守存取。"
+  },
+  {
+    "imageName": "AnyDesk.png",
+    "category": "遠端遙控",
+    "image": "images/AnyDesk.png",
+    "link": "https://anydesk.com/zht",
+    "title": "AnyDesk",
+    "description": "輕量化遠端桌面工具，具備低延遲、檔案傳輸、跨平台控制及遠端支援功能。"
+  },
+  {
+    "imageName": "UltraVNC.png",
+    "category": "遠端遙控",
+    "image": "images/UltraVNC.png",
+    "link": "https://uvnc.com/",
+    "title": "UltraVNC",
+    "description": "免費開源遠端控制軟體，支援Windows桌面共享、遠端管理及檔案傳輸。"
+  },
+  {
+    "imageName": "ChromeRemoteDesktop.png",
+    "category": "遠端遙控",
+    "image": "images/ChromeRemoteDesktop.png",
+    "link": "https://remotedesktop.google.com/home",
+    "title": "Chrome Remote Desktop",
+    "description": "Google免費遠端桌面工具，透過瀏覽器即可遠端控制電腦，操作簡單。"
+  },
+  {
+    "imageName": "CCleaner.png",
+    "category": "系統清理",
+    "image": "images/CCleaner.png",
+    "link": "https://www.ccleaner.com/",
+    "title": "CCleaner",
+    "description": "知名系統清理工具，支援暫存檔、瀏覽器快取及啟動項目管理。"
+  },
+  {
+    "imageName": "CCEnhancer.png",
+    "category": "系統清理",
+    "image": "images/CCEnhancer.png",
+    "link": "https://singularlabs.com/software/ccenhancer/",
+    "title": "CCEnhancer",
+    "description": "免費CCleaner增強工具，可新增上千條清理規則，擴充軟體快取、暫存檔及使用紀錄清理功能。"
+  },
+  {
+    "imageName": "WiseDiskCleaner.png",
+    "category": "系統清理",
+    "image": "images/WiseDiskCleaner.png",
+    "link": "https://www.wisecleaner.com/wise-care-365.html",
+    "title": "Wise Disk Cleaner",
+    "description": "免費磁碟清理工具，可清除系統垃圾、瀏覽器快取及不必要檔案。"
+  },
+  {
+    "imageName": "GlaryUtilities.png",
+    "category": "系統清理",
+    "image": "images/GlaryUtilities.png",
+    "link": "https://www.glarysoft.com/",
+    "title": "Glary Utilities",
+    "description": "多功能系統維護工具，提供垃圾清理、啟動管理及軟體解除安裝功能。"
+  },
+  {
+    "imageName": "MicrosoftPCManager.png",
+    "category": "系統清理",
+    "image": "images/MicrosoftPCManager.png",
+    "link": "https://pcmanager.microsoft.com/zh-tw",
+    "title": "Microsoft PC Manager",
+    "description": "微軟官方免費系統管理工具，提供垃圾清理、儲存空間管理及效能監控。"
+  },
+  {
+    "imageName": "LINE.png",
+    "category": "即時傳訊",
+    "image": "images/LINE.png",
+    "link": "https://www.line.me/tw/",
+    "title": "LINE",
+    "description": ""
+  },
+  {
+    "imageName": "WhatsApp.png",
+    "category": "即時傳訊",
+    "image": "images/WhatsApp.png",
+    "link": "https://www.whatsapp.com/",
+    "title": "WhatsApp",
+    "description": "跨平台即時通訊軟體，提供端對端加密聊天、語音視訊及群組功能。"
+  },
+  {
+    "imageName": "Telegram.png",
+    "category": "即時傳訊",
+    "image": "images/Telegram.png",
+    "link": "https://telegram.org/",
+    "title": "Telegram",
+    "description": "雲端即時通訊工具，支援大型群組、頻道、機器人及多裝置同步。"
+  },
+  {
+    "imageName": "Discord.png",
+    "category": "即時傳訊",
+    "image": "images/Discord.png",
+    "link": "https://discord.com/",
+    "title": "Discord",
+    "description": "社群通訊平台，支援文字、語音頻道、視訊、螢幕分享及機器人。"
+  },
+  {
+    "imageName": "WeChat.png",
+    "category": "即時傳訊",
+    "image": "images/WeChat.png",
+    "link": "https://www.wechat.com/zh_TW",
+    "title": "WeChat",
+    "description": "整合文字聊天、語音視訊、朋友圈、小程式及行動支付功能。"
+  },
+  {
+    "imageName": "MicrosoftTeams.png",
+    "category": "即時傳訊",
+    "image": "images/MicrosoftTeams.png",
+    "link": "https://www.microsoft.com/zh-tw/microsoft-teams/group-chat-software",
+    "title": "Microsoft Teams",
+    "description": "微軟團隊協作工具，整合即時聊天、視訊會議、檔案共享及Office。"
+  },
+  {
+    "imageName": "Avast.png",
+    "category": "防毒軟體",
+    "image": "images/Avast.png",
+    "link": "https://www.avast.com/zh-tw/index#pc",
+    "title": "Avast Antivirus",
+    "description": "提供免費及付費防毒版本，支援即時病毒掃描、網頁威脅及勒索軟體防護。"
+  },
+  {
+    "imageName": "Avira.png",
+    "category": "防毒軟體",
+    "image": "images/Avira.png",
+    "link": "https://www.avira.com/zh-tw",
+    "title": "Avira Antivirus",
+    "description": "提供免費及付費防護，具備即時病毒掃描、惡意程式偵測及網路安全功能。"
+  },
+  {
+    "imageName": "AVG.png",
+    "category": "防毒軟體",
+    "image": "images/AVG.png",
+    "link": "https://www.avg.com/zh-tw/homepage#pc",
+    "title": "AVG AntiVirus",
+    "description": "提供免費及付費版本，具備即時病毒偵測、惡意網站封鎖及安全掃描功能。"
+  },
+  {
+    "imageName": "TrellixStinger.png",
+    "category": "防毒軟體",
+    "image": "images/TrellixStinger.png",
+    "link": "https://www.trellix.com/downloads/free-tools/stinger/",
+    "title": "Trellix Stinger",
+    "description": "免費免安裝病毒清除工具，可掃描並移除特定病毒、木馬及惡意程式，不具即時防護功能。"
+  },
+  {
+    "imageName": "DWCureIt.png",
+    "category": "防毒軟體",
+    "image": "images/DWCureIt.png",
+    "link": "https://free.drweb.com/cureit/",
+    "title": "Dr.Web CureIt!",
+    "description": "免費免安裝病毒掃描工具，可偵測並清除病毒、木馬及惡意程式，不提供即時防護。"
+  },
+  {
+    "imageName": "Outlook.png",
+    "category": "郵件軟體",
+    "image": "images/Outlook.png",
+    "link": "https://apps.microsoft.com/detail/9nrx63209r7b?hl=zh-TW&gl=US",
+    "title": "Microsoft Outlook",
+    "description": "微軟郵件管理軟體，整合電子郵件、行事曆、聯絡人及工作排程。"
+  },
+  {
+    "imageName": "Thunderbird.png",
+    "category": "郵件軟體",
+    "image": "images/Thunderbird.png",
+    "link": "https://www.thunderbird.net/zh-TW/",
+    "title": "Mozilla Thunderbird",
+    "description": "免費開源郵件軟體，支援多帳號管理、郵件過濾、行事曆及擴充功能。"
+  },
+  {
+    "imageName": "AppleMail.png",
+    "category": "郵件軟體",
+    "image": "images/AppleMail.png",
+    "link": "https://www.apple.com/os/macos/",
+    "title": "Apple Mail",
+    "description": "蘋果內建郵件軟體，整合iCloud、Gmail及Outlook等郵件服務。"
+  },
+  {
+    "imageName": "AOMEIBackupper.png",
+    "category": "備份軟體",
+    "image": "images/AOMEIBackupper.png",
+    "link": "https://www.ubackup.com/tw/",
+    "title": "AOMEI Backupper",
+    "description": "提供系統備份、磁碟複製、增量備份、檔案同步及系統還原功能。"
+  },
+  {
+    "imageName": "EaseUSTodoBackup.png",
+    "category": "備份軟體",
+    "image": "images/EaseUSTodoBackup.png",
+    "link": "https://www.easeus.com/backup-software/tb-free.html",
+    "title": "EaseUS Todo Backup",
+    "description": "支援系統映像、檔案備份、磁碟複製、自動排程及災難還原。"
+  },
+  {
+    "imageName": "Clonezilla.png",
+    "category": "備份軟體",
+    "image": "images/Clonezilla.png",
+    "link": "https://clonezilla.org/",
+    "title": "Clonezilla",
+    "description": "免費開源磁碟備份與複製工具，適合系統遷移、硬碟備份及大量部署。"
+  },
+  {
+    "imageName": "Rescuezilla.png",
+    "category": "備份軟體",
+    "image": "images/Rescuezilla.png",
+    "link": "https://rescuezilla.com/",
+    "title": "Rescuezilla",
+    "description": "免費開源系統備份工具，提供圖形化操作，支援磁碟映像與還原。"
+  },
+  {
+    "imageName": "FreeFileSync.png",
+    "category": "備份軟體",
+    "image": "images/FreeFileSync.png",
+    "link": "https://freefilesync.org/",
+    "title": "FreeFileSync",
+    "description": "免費開源檔案同步工具，支援資料夾比較、鏡像備份及自動同步。"
+  },
+  {
+    "imageName": "Duplicati.png",
+    "category": "備份軟體",
+    "image": "images/Duplicati.png",
+    "link": "https://duplicati.com/",
+    "title": "Duplicati",
+    "description": "免費開源備份軟體，支援加密、增量備份及多種雲端儲存服務。"
+  },
+  {
+    "imageName": "UrBackup.png",
+    "category": "備份軟體",
+    "image": "images/UrBackup.png",
+    "link": "https://www.urbackup.org/",
+    "title": "UrBackup",
+    "description": "免費開源備份系統，支援網路集中管理、檔案及系統映像備份。"
+  },
+  {
+    "imageName": "CobianBackup.png",
+    "category": "備份軟體",
+    "image": "images/CobianBackup.png",
+    "link": "https://www.cobiansoft.com/",
+    "title": "Cobian Backup",
+    "description": "免費檔案備份工具，支援排程、增量備份、壓縮及網路備份。"
+  },
+  {
+    "imageName": "Kopia.png",
+    "category": "備份軟體",
+    "image": "images/Kopia.png",
+    "link": "https://kopia.io/",
+    "title": "Kopia",
+    "description": "開源加密備份工具，支援快照、去重、壓縮及本機與雲端儲存。"
+  },
+  {
+    "imageName": "Rufus.png",
+    "category": "安裝碟",
+    "image": "images/Rufus.png",
+    "link": "https://rufus.ie/zh_TW/",
+    "title": "Rufus",
+    "description": "免費開源USB開機碟製作工具，支援Windows、Linux、UEFI及ISO映像檔。"
+  },
+  {
+    "imageName": "Ventoy.png",
+    "category": "安裝碟",
+    "image": "images/Ventoy.png",
+    "link": "https://www.ventoy.net/en/index.html",
+    "title": "Ventoy",
+    "description": "免費開源多重開機工具，可直接複製多個ISO檔至USB，無須重複格式化。"
+  },
+  {
+    "imageName": "balenaEtcher.png",
+    "category": "安裝碟",
+    "image": "images/balenaEtcher.png",
+    "link": "https://etcher.balena.io/",
+    "title": "balenaEtcher",
+    "description": "免費開源跨平台映像燒錄工具，支援USB、SD卡及燒錄後驗證。"
+  },
+  {
+    "imageName": "UNetbootin.png",
+    "category": "安裝碟",
+    "image": "images/UNetbootin.png",
+    "link": "https://unetbootin.github.io/",
+    "title": "UNetbootin",
+    "description": "免費開源工具，可下載Linux發行版或使用ISO檔製作Live USB。"
+  },
+  {
+    "imageName": "OneNote.png",
+    "category": "筆記軟體",
+    "image": "images/OneNote.png",
+    "link": "https://onenote.cloud.microsoft/zh-hant/",
+    "title": "Microsoft OneNote",
+    "description": "微軟筆記工具，支援手寫、圖片、錄音、分類整理及跨裝置同步。"
+  },
+  {
+    "imageName": "Evernote.png",
+    "category": "筆記軟體",
+    "image": "images/Evernote.png",
+    "link": "https://evernote.com/",
+    "title": "Evernote",
+    "description": "多功能雲端筆記工具，支援網頁剪藏、檔案整理、搜尋及跨裝置同步。"
+  },
+  {
+    "imageName": "Notion.png",
+    "category": "筆記軟體",
+    "image": "images/Notion.png",
+    "link": "https://www.notion.com/zh-tw/download",
+    "title": "Notion",
+    "description": "整合筆記、資料庫、任務管理及團隊協作的多功能工作平台。"
+  },
+  {
+    "imageName": "Anytype.png",
+    "category": "筆記軟體",
+    "image": "images/Anytype.png",
+    "link": "https://anytype.io/",
+    "title": "Anytype",
+    "description": "注重隱私的知識管理工具，支援離線筆記、資料關聯與個人知識庫。"
+  },
+  {
+    "imageName": "Marktext.png",
+    "category": "筆記軟體",
+    "image": "images/Marktext.png",
+    "link": "https://marktext.me/",
+    "title": "Marktext",
+    "description": "免費開源Markdown編輯器，支援即時預覽、表格、數學公式、專注模式及PDF匯出。"
+  },
+  {
+    "imageName": "GoogleKeep.png",
+    "category": "筆記軟體",
+    "image": "images/GoogleKeep.png",
+    "link": "https://keep.google.com/",
+    "title": "Google Keep",
+    "description": "Google輕量筆記工具，支援文字、圖片、待辦清單及雲端同步。"
+  },
+  {
+    "imageName": "Typeless.png",
+    "category": "筆記軟體",
+    "image": "images/Typeless.png",
+    "link": "https://www.typeless.com/",
+    "title": "Typeless",
+    "description": "AI智慧語音輸入工具，支援多語言辨識、自動修正文法、文字潤飾及語音翻譯。"
+  },
+  {
+    "imageName": "VirtualBox.png",
+    "category": "虛擬機器",
+    "image": "images/VirtualBox.png",
+    "link": "https://www.virtualbox.org/",
+    "title": "Oracle VirtualBox",
+    "description": "免費開源虛擬機器工具，支援多種作業系統、快照、共用資料夾及虛擬網路。"
+  },
+  {
+    "imageName": "VMware.png",
+    "category": "虛擬機器",
+    "image": "images/VMware.png",
+    "link": "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion",
+    "title": "VMware Workstation",
+    "description": "專業虛擬機器軟體，可在Windows及Linux執行多種作業系統，支援快照及虛擬網路。"
+  },
+  {
+    "imageName": "VMwareFusion.png",
+    "category": "虛擬機器",
+    "image": "images/VMwareFusion.png",
+    "link": "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion",
+    "title": "VMware Fusion Pro",
+    "description": "專為macOS設計的虛擬機器軟體，可在Mac上執行相容的Windows與Linux系統。"
+  },
+  {
+    "imageName": "ParallelsDesktop.png",
+    "category": "虛擬機器",
+    "image": "images/ParallelsDesktop.png",
+    "link": "https://www.parallels.com/hk/products/desktop/",
+    "title": "Parallels Desktop",
+    "description": "Mac專用虛擬機器軟體，可執行相容的Windows及Linux，支援視窗整合。"
+  },
+  {
+    "imageName": "VisualCRedistributable.png",
+    "category": "系統元件",
+    "image": "images/VisualCRedistributable.png",
+    "link": "https://learn.microsoft.com/zh-tw/cpp/windows/latest-supported-vc-redist?view=msvc-170",
+    "title": "Microsoft Visual C++ Redistributable",
+    "description": "微軟C++程式執行元件，許多遊戲及應用程式必備，支援多版本共存。"
+  },
+  {
+    "imageName": "VisualCAllInOne.png",
+    "category": "系統元件",
+    "image": "images/VisualCAllInOne.png",
+    "link": "https://github.com/abbodi1406/vcredist/releases",
+    "title": "Microsoft Visual C++ 整合包",
+    "description": "微軟C++程式執行元件，許多遊戲及應用程式必備，支援多版本共存。"
+  },
+  {
+    "imageName": "NETFramework.png",
+    "category": "系統元件",
+    "image": "images/NETFramework.png",
+    "link": "https://dotnet.microsoft.com/zh-tw/download/dotnet-framework",
+    "title": "Microsoft .NET Framework",
+    "description": "微軟應用程式執行框架，提供程式執行環境與函式庫，常用於Windows軟體。"
+  },
+  {
+    "imageName": "JRE.png",
+    "category": "系統元件",
+    "image": "images/JRE.png",
+    "link": "https://www.java.com/zh-TW/",
+    "title": "Java Runtime Environment",
+    "description": "Java程式執行環境，提供虛擬機器與必要函式庫，支援跨平台應用程式。"
+  },
+  {
+    "imageName": "Krita.png",
+    "category": "繪圖軟體",
+    "image": "images/Krita.png",
+    "link": "https://krita.org/zh-tw/",
+    "title": "Krita",
+    "description": "免費開源數位繪圖軟體，支援筆刷、圖層、漫畫及2D動畫製作。"
+  },
+  {
+    "imageName": "GIMP.png",
+    "category": "繪圖軟體",
+    "image": "images/GIMP.png",
+    "link": "https://www.gimp.org/",
+    "title": "GIMP",
+    "description": "免費開源影像編輯工具，支援照片修圖、圖層、遮罩及數位繪畫。"
+  },
+  {
+    "imageName": "Inkscape.png",
+    "category": "繪圖軟體",
+    "image": "images/Inkscape.png",
+    "link": "https://inkscape.org/",
+    "title": "Inkscape",
+    "description": "免費開源向量繪圖工具，支援SVG、路徑編輯、插畫及標誌設計。"
+  },
+  {
+    "imageName": "MediBangPaint.png",
+    "category": "繪圖軟體",
+    "image": "images/MediBangPaint.png",
+    "link": "https://medibangpaint.com/",
+    "title": "MediBang Paint",
+    "description": "免費數位繪圖工具，提供筆刷、漫畫素材、網點及雲端功能。"
+  },
+  {
+    "imageName": "FireAlpaca.png",
+    "category": "繪圖軟體",
+    "image": "images/FireAlpaca.png",
+    "link": "https://firealpaca.com/",
+    "title": "FireAlpaca",
+    "description": "免費輕量繪圖軟體，支援筆刷、圖層、漫畫分格及簡易動畫。"
+  },
+  {
+    "imageName": "PaintNET.png",
+    "category": "繪圖軟體",
+    "image": "images/PaintNET.png",
+    "link": "https://paint.net/",
+    "title": "Paint.NET",
+    "description": "Windows影像編輯工具，支援圖層、特效、外掛及基本繪圖。"
+  },
+  {
+    "imageName": "MyPaint.png",
+    "category": "繪圖軟體",
+    "image": "images/MyPaint.png",
+    "link": "https://www.mypaint.app/en/",
+    "title": "MyPaint",
+    "description": "免費開源繪圖軟體，提供自然筆刷與無限畫布，適合手繪創作。"
+  },
+  {
+    "imageName": "Figma.png",
+    "category": "繪圖軟體",
+    "image": "images/Figma.png",
+    "link": "https://www.figma.com/",
+    "title": "Figma",
+    "description": "雲端協作設計工具，支援UI／UX設計、向量繪圖、互動原型製作及多人即時協作。"
+  },
+  {
+    "imageName": "Blender.png",
+    "category": "3D 繪圖軟體",
+    "image": "images/Blender.png",
+    "link": "https://www.blender.org/",
+    "title": "Blender",
+    "description": "免費開源3D創作軟體，支援建模、雕刻、動畫、材質、渲染及特效製作。"
+  },
+  {
+    "imageName": "FreeCAD.png",
+    "category": "3D 繪圖軟體",
+    "image": "images/FreeCAD.png",
+    "link": "https://www.freecad.org/",
+    "title": "FreeCAD",
+    "description": "免費開源參數化3D設計軟體，適合機械零件、工程設計及3D列印。"
+  },
+  {
+    "imageName": "LibreCAD.png",
+    "category": "3D 繪圖軟體",
+    "image": "images/LibreCAD.png",
+    "link": "https://librecad.org/",
+    "title": "LibreCAD",
+    "description": "免費開源2D CAD繪圖軟體，支援DXF、DWG格式，適合機械製圖、建築平面圖及工程設計。"
+  },
+  {
+    "imageName": "OpenSCAD.png",
+    "category": "3D 繪圖軟體",
+    "image": "images/OpenSCAD.png",
+    "link": "https://openscad.org/",
+    "title": "OpenSCAD",
+    "description": "免費開源程式化3D建模工具，透過程式碼建立精確的幾何模型。"
+  },
+  {
+    "imageName": "Tinkercad.png",
+    "category": "3D 繪圖軟體",
+    "image": "images/Tinkercad.png",
+    "link": "https://www.tinkercad.com/",
+    "title": "Tinkercad",
+    "description": "免費線上3D建模工具，操作簡單，適合初學者、教學及3D列印。"
+  },
+  {
+    "imageName": "Wings3D.png",
+    "category": "3D 繪圖軟體",
+    "image": "images/Wings3D.png",
+    "link": "https://www.wings3d.com/",
+    "title": "Wings 3D",
+    "description": "免費開源多邊形建模軟體，介面簡潔，適合低多邊形模型製作"
+  },
+  {
+    "imageName": "SweetHome3D.png",
+    "category": "3D 繪圖軟體",
+    "image": "images/SweetHome3D.png",
+    "link": "https://www.sweethome3d.com/zh-hant/",
+    "title": "Sweet Home 3D",
+    "description": "免費開源室內設計軟體，支援2D平面圖繪製、家具擺設、3D即時預覽及室內空間規劃。"
+  },
+  {
+    "imageName": "DaVinciResolve.png",
+    "category": "影片剪輯",
+    "image": "images/DaVinciResolve.png",
+    "link": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "title": "DaVinci Resolve",
+    "description": "專業影音剪輯工具，整合調色、特效、音訊處理及動畫，提供免費版。"
+  },
+  {
+    "imageName": "CapCut.png",
+    "category": "影片剪輯",
+    "image": "images/CapCut.png",
+    "link": "https://www.capcut.com/zh-tw/",
+    "title": "CapCut",
+    "description": "簡單易用的影片剪輯工具，提供自動字幕、特效、範本及AI剪輯功能。"
+  },
+  {
+    "imageName": "Shotcut.png",
+    "category": "影片剪輯",
+    "image": "images/Shotcut.png",
+    "link": "https://shotcut.org/",
+    "title": "Shotcut",
+    "description": "免費開源跨平台剪輯軟體，支援4K影片、多軌編輯、濾鏡及格式轉換。"
+  },
+  {
+    "imageName": "Kdenlive.png",
+    "category": "影片剪輯",
+    "image": "images/Kdenlive.png",
+    "link": "https://kdenlive.org/zh-tw/",
+    "title": "Kdenlive",
+    "description": "免費開源影片編輯器，支援多軌剪輯、特效、字幕及代理剪輯。"
+  },
+  {
+    "imageName": "OpenShot.png",
+    "category": "影片剪輯",
+    "image": "images/OpenShot.png",
+    "link": "https://www.openshot.org/",
+    "title": "OpenShot",
+    "description": "免費開源影片剪輯工具，支援時間軸、轉場、動畫及多種影音格式。"
+  },
+  {
+    "imageName": "Natron.png",
+    "category": "影片剪輯",
+    "image": "images/Natron.png",
+    "link": "https://natrongithub.github.io/",
+    "title": "Natron",
+    "description": "免費開源的節點式影片特效合成軟體，支援去背、動態追蹤、遮罩、調色及OpenFX外掛。"
+  },
+  {
+    "imageName": "LosslessCut.png",
+    "category": "影片剪輯",
+    "image": "images/LosslessCut.png",
+    "link": "https://losslesscut.app/",
+    "title": "LosslessCut",
+    "description": "免費開源無損影音剪輯工具，支援快速裁切、合併、音軌提取及格式轉換，無須重新編碼。"
+  },
+  {
+    "imageName": "Concat.png",
+    "category": "影片剪輯",
+    "image": "images/Concat.png",
+    "link": "https://concat.standalones.org/",
+    "title": "Concat",
+    "description": "免費開源跨平台影片剪輯軟體，支援多軌剪輯、自動字幕、語音合成、背景移除及4K輸出。"
+  },
+  {
+    "imageName": "VisualStudio.png",
+    "category": "程式設計軟體",
+    "image": "images/VisualStudio.png",
+    "link": "https://visualstudio.microsoft.com/zh-hant/vs/",
+    "title": "Visual Studio",
+    "description": "微軟專業整合開發環境，適合C#、C++、.NET及桌面應用程式開發。"
+  },
+  {
+    "imageName": "VisualStudioCode.png",
+    "category": "程式設計軟體",
+    "image": "images/VisualStudioCode.png",
+    "link": "https://code.visualstudio.com/",
+    "title": "Visual Studio Code",
+    "description": "微軟免費程式碼編輯器，支援多種語言、除錯、Git、外掛及AI輔助。"
+  },
+  {
+    "imageName": "Notepad++.png",
+    "category": "程式設計軟體",
+    "image": "images/Notepad++.png",
+    "link": "https://notepad-plus-plus.org/",
+    "title": "Notepad++",
+    "description": "免費開源輕量程式碼編輯器，支援語法標示、多分頁及外掛功能。"
+  },
+  {
+    "imageName": "SublimeText.png",
+    "category": "程式設計軟體",
+    "image": "images/SublimeText.png",
+    "link": "https://www.sublimetext.com/",
+    "title": "Sublime Text",
+    "description": "高效能程式碼編輯器，支援多游標編輯、語法標示及外掛擴充。"
+  },
+  {
+    "imageName": "PyCharm.png",
+    "category": "程式設計軟體",
+    "image": "images/PyCharm.png",
+    "link": "https://www.jetbrains.com/pycharm/",
+    "title": "PyCharm",
+    "description": "專業Python開發環境，支援智慧補全、除錯、虛擬環境及專案管理。"
+  },
+  {
+    "imageName": "Python.png",
+    "category": "程式設計軟體",
+    "image": "images/Python.png",
+    "link": "https://www.python.org/",
+    "title": "Python",
+    "description": "免費開源的高階程式語言，語法簡潔易學，廣泛應用於AI、資料分析、網站開發及自動化。"
+  },
+  {
+    "imageName": "Anaconda.png",
+    "category": "程式設計軟體",
+    "image": "images/Anaconda.png",
+    "link": "https://www.anaconda.com/",
+    "title": "Anaconda",
+    "description": "Python與R語言發行套件，整合套件管理、虛擬環境及資料科學工具，適合AI與機器學習開發。"
+  },
+  {
+    "imageName": "Java.png",
+    "category": "程式設計軟體",
+    "image": "images/Java.png",
+    "link": "https://www.oracle.com/java/technologies/downloads/",
+    "title": "Java",
+    "description": "跨平台物件導向程式語言，廣泛應用於企業系統、網站後端及Android應用程式開發。"
+  },
+  {
+    "imageName": "NetBeans.png",
+    "category": "程式設計軟體",
+    "image": "images/NetBeans.png",
+    "link": "https://netbeans.apache.org/front/main/index.html",
+    "title": "Apache NetBeans",
+    "description": "免費開源整合開發環境，支援Java、PHP及多種程式語言開發。"
+  },
+  {
+    "imageName": "AndroidStudio.png",
+    "category": "程式設計軟體",
+    "image": "images/AndroidStudio.png",
+    "link": "https://developer.android.com/studio",
+    "title": "Android Studio",
+    "description": "Google官方Android開發工具，支援Kotlin、Java、模擬器及介面設計。"
+  },
+  {
+    "imageName": "EclipseIDE.png",
+    "category": "程式設計軟體",
+    "image": "images/EclipseIDE.png",
+    "link": "https://www.eclipse.org/",
+    "title": "Eclipse IDE",
+    "description": "免費開源開發環境，主要支援Java，並可透過外掛擴充其他語言。"
+  },
+  {
+    "imageName": "CodeBlocks.png",
+    "category": "程式設計軟體",
+    "image": "images/CodeBlocks.png",
+    "link": "https://www.codeblocks.org/",
+    "title": "Code::Blocks",
+    "description": "免費開源C與C++開發環境，支援編譯器整合、專案管理及程式除錯。"
+  },
+  {
+    "imageName": "Orwell.png",
+    "category": "程式設計軟體",
+    "image": "images/Orwell.png",
+    "link": "https://orwelldevcpp.blogspot.com/",
+    "title": "Orwell Dev C++",
+    "description": "免費開源C/C++整合開發環境，支援程式編輯、編譯、除錯及專案管理，適合初學者。"
+  },
+  {
+    "imageName": "Nodejs.png",
+    "category": "程式設計軟體",
+    "image": "images/Nodejs.png",
+    "link": "https://nodejs.org/zh-tw/",
+    "title": "Node.js",
+    "description": "免費開源的JavaScript執行環境，支援跨平台開發，廣泛應用於網站後端、API及伺服器程式。"
+  },
+  {
+    "imageName": "Cursor.png",
+    "category": "程式設計軟體",
+    "image": "images/Cursor.png",
+    "link": "https://cursor.com/",
+    "title": "Cursor",
+    "description": "AI程式碼編輯器，支援智慧補全、自然語言修改程式及程式碼分析。"
+  },
+  {
+    "imageName": "Antigravity.png",
+    "category": "程式設計軟體",
+    "image": "images/Antigravity.png",
+    "link": "https://antigravity.google/",
+    "title": "Antigravity",
+    "description": "Google推出的AI程式開發平台，整合智慧編碼、自動除錯、瀏覽器操作及AI代理協作。"
+  },
+  {
+    "imageName": "DevinAI.png",
+    "category": "程式設計軟體",
+    "image": "images/DevinAI.png",
+    "link": "https://devin.ai/",
+    "title": "Devin AI",
+    "description": "Cognition開發的AI軟體工程師，能自主撰寫程式、除錯、測試、部署及執行開發任務。"
+  },
+  {
+    "imageName": "Trae.png",
+    "category": "程式設計軟體",
+    "image": "images/Trae.png",
+    "link": "https://www.trae.ai/",
+    "title": "Trae",
+    "description": "字節跳動推出的AI程式開發工具，支援智慧補全、程式除錯、自然語言生成程式及AI代理開發。"
+  }
+]
