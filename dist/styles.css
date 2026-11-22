@@ -30,13 +30,15 @@ body {
 .hardware-menu:hover .hardware-dropdown, .hardware-menu:focus-within .hardware-dropdown { opacity: 1; pointer-events: auto; transform: translateY(0); }
 .hardware-dropdown a { padding: 9px 11px; border-radius: 7px; color: var(--muted); font-size: .9rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
 .hardware-dropdown a:hover, .hardware-dropdown a:focus-visible { color: #a53c2a; background: #fff0ea; outline: none; }
-.software-menu { position: relative; align-self: stretch; display: flex; align-items: center; }
-.software-trigger { height: 38px; padding: 9px 13px; border-radius: 9px; color: var(--ink); background: transparent; font: inherit; font-weight: 700; text-decoration: none; }
-.software-trigger:hover, .software-menu:hover .software-trigger, .software-menu:focus-within .software-trigger { color: #a53c2a; background: #fff0ea; outline: none; }
-.category-dropdown { position: absolute; top: calc(100% - 8px); right: 0; display: grid; grid-template-columns: repeat(2, max-content); gap: 3px; width: max-content; max-width: min(560px, calc(100vw - 28px)); max-height: min(70vh, 520px); overflow-y: auto; padding: 11px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); box-shadow: 0 16px 38px rgba(38, 45, 54, .16); opacity: 0; pointer-events: none; transform: translateY(-5px); transition: opacity .16s ease, transform .16s ease; }
-.software-menu:hover .category-dropdown, .software-menu:focus-within .category-dropdown { opacity: 1; pointer-events: auto; transform: translateY(0); }
-.category-dropdown a { padding: 9px 11px; border-radius: 7px; color: var(--muted); font-size: .9rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
-.category-dropdown a:hover, .category-dropdown a:focus-visible { color: #a53c2a; background: #fff0ea; outline: none; }
+.software-menu, .diagnostic-menu { position: relative; align-self: stretch; display: flex; align-items: center; }
+.software-trigger, .diagnostic-trigger { height: 38px; padding: 9px 13px; border-radius: 9px; color: var(--ink); background: transparent; font: inherit; font-weight: 700; text-decoration: none; }
+.software-trigger:hover, .software-menu:hover .software-trigger, .software-menu:focus-within .software-trigger, .diagnostic-trigger:hover, .diagnostic-menu:hover .diagnostic-trigger, .diagnostic-menu:focus-within .diagnostic-trigger { color: #a53c2a; background: #fff0ea; outline: none; }
+.category-dropdown, .diagnostic-dropdown { position: absolute; z-index: 20; top: calc(100% - 8px); display: grid; gap: 3px; width: max-content; max-width: min(560px, calc(100vw - 28px)); max-height: min(70vh, 520px); overflow-y: auto; padding: 11px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); box-shadow: 0 16px 38px rgba(38, 45, 54, .16); opacity: 0; pointer-events: none; transform: translateY(-5px); transition: opacity .16s ease, transform .16s ease; }
+.category-dropdown { right: 0; grid-template-columns: repeat(2, max-content); }
+.diagnostic-dropdown { left: 0; grid-template-columns: 1fr; min-width: 150px; }
+.software-menu:hover .category-dropdown, .software-menu:focus-within .category-dropdown, .diagnostic-menu:hover .diagnostic-dropdown, .diagnostic-menu:focus-within .diagnostic-dropdown, .diagnostic-menu.is-open .diagnostic-dropdown { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.category-dropdown a, .diagnostic-dropdown a { padding: 9px 11px; border-radius: 7px; color: var(--muted); font-size: .9rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.category-dropdown a:hover, .category-dropdown a:focus-visible, .diagnostic-dropdown a:hover, .diagnostic-dropdown a:focus-visible { color: #a53c2a; background: #fff0ea; outline: none; }
 .page-shell { width: min(1520px, calc(100% - 48px)); margin: 0 auto; padding: 72px 0 88px; }
 
 .hero { max-width: 650px; margin-bottom: 42px; }

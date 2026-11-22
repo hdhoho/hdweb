@@ -67,24 +67,72 @@ async function renderCards() {
     });
 
     grid.replaceChildren(...sections);
-    categoryNav.replaceChildren(...categories.map(([category], index) => {
+    const softwareItems = dataSource === 'data2.json'
+      ? items
+      : await fetch('data2.json').then(response => {
+          if (!response.ok) throw new Error('軟體資料讀取失敗');
+          return response.json();
+        });
+    const softwareCategories = [...new Set(softwareItems.map(item => item.category || '未分類'))];
+
+    categoryNav.replaceChildren(...softwareCategories.map((category, index) => {
       const link = document.createElement('a');
-      link.href = `#category-${index + 1}`;
+      const isSoftwarePage = dataSource === 'data2.json';
+      link.href = isSoftwarePage ? `#category-${index + 1}` : `index2.html#category-${index + 1}`;
       link.textContent = category;
-      link.addEventListener('click', event => {
-        event.preventDefault();
-        document.querySelector(link.hash)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        history.replaceState(null, '', link.hash);
-        softwareMenu.classList.remove('is-open');
-        softwareTrigger.setAttribute('aria-expanded', 'false');
-      });
+      if (isSoftwarePage) {
+        link.addEventListener('click', event => {
+          event.preventDefault();
+          document.querySelector(link.hash)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          history.replaceState(null, '', link.hash);
+        });
+      }
       return link;
     }));
+    requestAnimationFrame(() => {
+      document.querySelector(location.hash)?.scrollIntoView({ block: 'start' });
+    });
     status.textContent = items.length ? '' : '目前沒有可顯示的內容。';
   } catch (error) {
     console.error(error);
     status.textContent = `無法載入內容，請確認 ${dataSource} 是否存在且格式正確。`;
   }
 }
+
+document.querySelectorAll('.diagnostic-menu a[href^="#"]').forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    document.querySelector(link.hash)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    history.replaceState(null, '', link.hash);
+  });
+});
+
+document.querySelectorAll('.diagnostic-menu').forEach(menu => {
+  const trigger = menu.querySelector('.diagnostic-trigger');
+  if (!trigger) return;
+
+  trigger.setAttribute('aria-expanded', 'false');
+  trigger.addEventListener('click', event => {
+    event.preventDefault();
+    const isOpen = menu.classList.toggle('is-open');
+    trigger.setAttribute('aria-expanded', String(isOpen));
+  });
+});
+
+document.addEventListener('click', event => {
+  document.querySelectorAll('.diagnostic-menu.is-open').forEach(menu => {
+    if (menu.contains(event.target)) return;
+    menu.classList.remove('is-open');
+    menu.querySelector('.diagnostic-trigger')?.setAttribute('aria-expanded', 'false');
+  });
+});
+
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape') return;
+  document.querySelectorAll('.diagnostic-menu.is-open').forEach(menu => {
+    menu.classList.remove('is-open');
+    menu.querySelector('.diagnostic-trigger')?.setAttribute('aria-expanded', 'false');
+  });
+});
 
 renderCards();
