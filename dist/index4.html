@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BIOS / UEFI 模擬器</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/theme-legacy.css" />
+  <link rel="stylesheet" href="css/theme-uefi.css" />
+</head>
+<body>
+  <div class="sim-shell">
+    <!-- Top Control Deck (Outside Monitor) -->
+    <header class="control-deck">
+      <div class="deck-brand">
+        <span class="power-led" id="power-led"></span>
+        <h1>BIOS / UEFI Simulator</h1>
+        <span class="badge" id="status-badge">STANDBY</span>
+      </div>
+
+      <div class="deck-actions">
+        <div class="mode-switch" role="group" aria-label="BIOS 介面風格切換">
+          <button id="btn-mode-legacy" class="deck-btn active" title="切換為經典藍底白字 Legacy BIOS">
+            Legacy 藍底白字
+          </button>
+          <button id="btn-mode-uefi" class="deck-btn" title="切換為現代圖形化 UEFI BIOS">
+            UEFI 圖形介面
+          </button>
+        </div>
+
+        <button id="btn-enter-bios" class="deck-btn deck-btn-accent" title="快速進入 BIOS Setup (DEL / F2)">
+          DEL / F2 進 BIOS
+        </button>
+        <button id="btn-boot-menu" class="deck-btn" title="快速開機選單 (F12)">
+          F12 Boot Menu
+        </button>
+        <button id="btn-reboot" class="deck-btn" title="重新啟動模擬電腦">
+          重開機
+        </button>
+        <button id="btn-power" class="deck-btn deck-btn-power" title="電源開關">
+          電源
+        </button>
+        <button id="btn-sound" class="deck-btn" title="開關開機蜂鳴音效">
+          音效: 開
+        </button>
+      </div>
+    </header>
+
+    <!-- Monitor Frame -->
+    <main class="monitor-bezel">
+      <div class="monitor-viewport" id="monitor-viewport" tabindex="0">
+
+        <!-- 1. Power Off Screen -->
+        <section id="screen-off" class="screen screen-off">
+          <div class="off-content">
+            <div class="off-icon">⏻</div>
+            <p class="off-title">系統已關機 (POWER OFF)</p>
+            <p class="off-sub">點擊右上角「電源」按鈕或下方按鈕啟動模擬電腦</p>
+            <button id="btn-power-center" class="off-start-btn">啟動電源 (Power On)</button>
+          </div>
+        </section>
+
+        <!-- 2. POST Self-Test Screen -->
+        <section id="screen-post" class="screen screen-post hidden">
+          <div class="post-header">
+            <div>
+              <div class="post-vendor">American Megatrends / Phoenix Virtual BIOS v2.40</div>
+              <div class="post-board">BIOS Simulator Virtual Motherboard X790-PRO (REV 1.0)</div>
+            </div>
+            <div class="energy-star">
+              <span>ENERGY STAR</span>
+              <small>ACPI 6.4</small>
+            </div>
+          </div>
+
+          <div id="post-log" class="post-log"></div>
+
+          <div class="post-footer">
+            <div class="post-prompt">
+              Press <kbd>DEL</kbd> or <kbd>F2</kbd> to enter SETUP, <kbd>F12</kbd> for Boot Menu
+            </div>
+            <div class="post-countdown" id="post-countdown"></div>
+          </div>
+        </section>
+
+        <!-- 3. F12 Quick Boot Menu Screen -->
+        <section id="screen-bootmenu" class="screen screen-bootmenu hidden">
+          <div class="bootmenu-box">
+            <div class="bootmenu-title">Please select boot device:</div>
+            <div id="bootmenu-list" class="bootmenu-list"></div>
+            <div class="bootmenu-hint">
+              ↑ and ↓ to move selection &nbsp;|&nbsp; ENTER to select &nbsp;|&nbsp; ESC to return / POST
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. BIOS Setup Screen (Legacy or UEFI rendered dynamically) -->
+        <section id="screen-bios" class="screen screen-bios hidden"></section>
+
+        <!-- 5. Simulated OS Boot Screen -->
+        <section id="screen-os" class="screen screen-os hidden">
+          <div id="os-content" class="os-content"></div>
+        </section>
+
+        <!-- Modal Overlay (Option Picker, Password, Confirmations) -->
+        <div id="modal-overlay" class="modal-overlay hidden" role="dialog" aria-modal="true">
+          <div id="modal-box" class="modal-box"></div>
+        </div>
+
+        <!-- Toast Feedback -->
+        <div id="toast" class="toast hidden"></div>
+      </div>
+
+      <div class="monitor-chin">
+        <span class="chin-brand">VIRTUAL-CRT / UEFI DISPLAY</span>
+        <span class="chin-hint">鍵盤提示：←→ 切換分頁 · ↑↓ 選擇項目 · Enter 確認 · +/- 調整 · F7 切換 EZ/進階 · F9 預設 · F10 儲存離開 · ESC 離開</span>
+      </div>
+    </main>
+  </div>
+
+  <!-- Scripts (Classic order for zero-build file:// & http:// compatibility) -->
+  <script src="js/config.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/monitor.js"></script>
+  <script src="js/post.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/keyboard.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
